@@ -6,7 +6,7 @@ function check() {
     var correct = 0;
 
 
-    if (question1 == "js") {
+    if (question1 == "B") {
         correct++;
     }
     if (question2 == "html") {
@@ -16,7 +16,7 @@ function check() {
         correct++;
     }
 
-    var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
+    
     var messages = ["Great job!", "That's just okay", "You really need to do better"];
     var score;
 
@@ -36,5 +36,5 @@ function check() {
 
     document.getElementById("message").innerHTML = messages[score];
     document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
-    document.getElementById("picture").src = pictures[score];
+    
 }

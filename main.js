@@ -9,10 +9,10 @@ function check() {
     if (question1 == "B") {
         correct++;
     }
-    if (question2 == "html") {
+    if (question2 == "G") {
         correct++;
     }
-    if (question3 == "css") {
+    if (question3 == "B") {
         correct++;
     }
 

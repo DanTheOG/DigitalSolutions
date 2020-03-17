@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<title>Guitar Lesson</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mainss.css">
+<link rel="stylesheet" href="mainss2.css">
+<link rel="stylesheet" href="mainss3.css">
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src="main.js"></script>
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #00bcd4;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    
+    <p>CHORDS</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    
+    <p>VIDEOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    
+    <p>QUIZ</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#home" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">CHORDS</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">VIDEOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">QUIZ</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Guitar Lesson</h1>
+    <p>Online Tutorial</p>
+    
+    <img src="guitar.png" class="w3-image" style="width:250px;height:250px;">
+  </header>
+
+  <!-- About Section -->
+
+  <div class="w3-padding-64 w3-content" id="about">
+    <h1>Chords</h1>
+    <hr style="width:130px" class="w3-opacity">
+    <p> G Chord</p>
+    <img src="G Chord.png" style="width:250px;height:250px;">
+    <p> C Chord</p>
+    <img src="C Chord.png" style="width:250px;height:250px;">
+    <p> Am Chord</p>
+    <img src="Am Chord.png" style="width:250px;height:250px;">
+    <p> Em Chord</p>
+    <img src="Em Chord.png" style="width:250px;height:250px;">
+  <!-- End Contact Section -->
+  </div>
+
+
+
+
+
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Basic Tutorials</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <iframe width="420" height="315"
+src="https://www.youtube.com/embed/w4a2ge9N31E">
+</iframe>
+      </div>
+
+      <div class="w3-half">
+        <iframe width="420" height="315"
+src="https://www.youtube.com/embed/yh6sPqDEZCY">
+</iframe>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+    <!--<button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button> -->
+    
+    <!-- Grid for pricing tables -->
+    <!--<h3 class="w3-padding-16 w3-text-light-grey">Our Paid Service</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div> -->
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <!--<h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>Jane Doe saved us from a web disaster.</p><br>
+    
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than Jane Doe.</p> -->
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Quiz</h2>
+    <hr style="width:68px" class="w3-opacity">
+    <form id="quiz" name="quiz">
+
+        
+        <br>
+        <p class="questions">Which one is the Em Chord</p>
+        <input type="radio" id="mc" name="question1" value="A"> A<br>
+        <br>
+        <img src="G Chord Nameless.png" style="width:250px;height:250px;">
+        <br>
+        <input type="radio" id="mc" name="question1" value="B"> B<br>
+        <br>
+        <img src="Em Chord Nameless.png" style="width:250px;height:250px;">
+        <br>
+        <input type="radio" id="mc" name="question1" value="C"> C<br>
+        <br>
+        <img src="Am Chord Nameless.png" style="width:250px;height:250px;">
+        <br>
+        <input type="radio" id="mc" name="question1" value="D"> D<br>
+        <br>
+        <img src="C Chord Nameless.png" style="width:250px;height:250px;">
+        <br>
+
+        <p class="questions">What is the Third highest string?</p>
+        <input type="radio" id="mc" name="question2" value="A"> A<br>
+        <input type="radio" id="mc" name="question2" value="B"> B<br>
+        <input type="radio" id="mc" name="question2" value="D"> D<br>
+        <input type="radio" id="mc" name="question2" value="G"> G<br>
+
+        <p class="questions">What string does the first finger sit on when playing an Am Chord?</p>
+
+        <input type="radio" id="mc" name="question3" value="A"> A<br>
+        <input type="radio" id="mc" name="question3" value="B"> B<br>
+        <input type="radio" id="mc" name="question3" value="D"> D<br>
+        <input type="radio" id="mc" name="question3" value="G"> G<br>
+
+
+        <input id="button" type="button" value="I'm finished!" onclick="check();">
+
+
+    </form>
+
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        
+    </div>
+  <!-- End Contact Section -->
+  </div>
+  <br>
+    <!-- Footer -->
+    <!--<div class="w3-padding-64 w3-content w3-text-grey" id="footer">
+        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+            <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
+        <!-- End footer -->
+        <!--</footer>-->
+    <!--</div> -->
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>

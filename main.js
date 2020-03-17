@@ -22,14 +22,29 @@ function check() {
 
     if (correct == 0) {
         score = 2;
+        window.scroll({
+            top: 2500, 
+            left: 0, 
+            behavior: 'smooth'
+          });
     }
 
     if (correct > 0 && correct < 3) {
         score = 1;
+        window.scroll({
+            top: 2500, 
+            left: 0, 
+            behavior: 'smooth'
+          });
     }
 
     if (correct == 3) {
         score = 0;
+        window.scroll({
+            top: 2500, 
+            left: 0, 
+            behavior: 'smooth'
+          });
     }
 
     document.getElementById("after_submit").style.visibility = "visible";
